@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: cucumberTest.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 53.101 sec <<< FAILURE!
+When twitter is displayed(Scenario: Verify twitter and short description)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at pageObjects.ProductPageObjects.verifyTwitter(ProductPageObjects.java:25)
+	at stepDefinition.ProductPageTest.twitter_is_displayed(ProductPageTest.java:19)
+	at ?.When twitter is displayed(testcases.feature:21)
+
+Scenario: Verify twitter and short description  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at pageObjects.ProductPageObjects.verifyTwitter(ProductPageObjects.java:25)
+	at stepDefinition.ProductPageTest.twitter_is_displayed(ProductPageTest.java:19)
+	at ?.When twitter is displayed(testcases.feature:21)
+

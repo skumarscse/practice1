@@ -1,0 +1,7 @@
+pageObjects\DressPageObjects.class
+utility\BaseClass.class
+pageObjects\ProductPageObjects.class
+stepDefinition\HomePageTest.class
+stepDefinition\ProductPageTest.class
+stepDefinition\DressPageTest.class
+pageObjects\HomePageObjects.class

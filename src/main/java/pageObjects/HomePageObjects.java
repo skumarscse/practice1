@@ -31,25 +31,26 @@ public class HomePageObjects extends BaseClass {
 	}
 
 	public void verifyTabs() {
-		/*
-		 * women.click(); dresses.click(); tshirts.click();
-		 */
+		//driver.navigate().to("http://automationpractice.com/index.php");
 		women.isDisplayed();
 		dresses.isDisplayed();
 		tshirts.isDisplayed();
 	}
 
 	public void navigation() {
+		//driver.navigate().to("http://automationpractice.com/index.php");
 		women.click();
 		dresses.click();
 		tshirts.click();
 	}
 
-	public String subscription() {
+	public void subscription() {
+		driver.navigate().to("http://automationpractice.com/index.php");
 		newsletter.sendKeys("skumarscse@gmail.com");
 		submit.click();
+	}
+	public String display() {
 		return message.getText();
 	}
-
 	
 }

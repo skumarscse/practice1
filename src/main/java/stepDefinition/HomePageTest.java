@@ -56,6 +56,6 @@ public class HomePageTest {
 	@Then("^Display subscription message$")
 	public void display_subscription_message() throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
-		Assert.assertTrue("Message Displayed:", hp.subscription().equals("Newsletter : This email address is already registered."));
+		Assert.assertTrue("Message Displayed:", hp.display().equals("Newsletter : This email address is already registered."));
 	}
 }
