@@ -29,7 +29,7 @@ public class DressPageObjects extends BaseClass {
 
 	public void clickOnDress() {
 		dress.click();
-		dress1.click();
+		dress2.click();
 	}
 
 	public void verifySize() {
